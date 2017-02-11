@@ -21,7 +21,7 @@ Options:
   									e.g. int32, float32
 ```
 
-To read int:  
+To read five float values from Server:  
 ```bash
-python test.py -s 192.168.2.11 -a 1 -r 0:10 -f float32
+python pymm.py -s 192.168.0.42 -a 1 -r 0:10 -f float32
 ```
